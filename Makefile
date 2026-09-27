@@ -153,6 +153,7 @@ UPROGS=\
 	$U/_test1\
 	$U/_test2\
 	$U/_test3\
+	$U/_uptime\
 
 fs.img: mkfs/mkfs README $(UPROGS)
 	mkfs/mkfs fs.img README $(UPROGS)
